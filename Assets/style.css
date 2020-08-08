@@ -1,70 +1,94 @@
 body {
-  background-color: #eeeeee;
+  font-family: "Sriracha", cursive;
+  background-color: snow;
 }
 
-.grid {
-  width: 700px;
+.container {
   height: 500px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 10px 50px 50px 50x;
-  border-radius: 50px;
-  border: 2px solid #cbcbcb;
-  box-shadow: 10px 15px 5px #cbcbcb;
+  width: 1000px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  background: lightsteelblue;
+  padding: 20px;
 }
-
-.grid h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #57636e;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 60px;
+.title {
+  padding-top: 10px;
   text-align: center;
-  color: white;
-  padding: 2px 0px;
-  border-radius: 50px;
-}
-
-.grid #question {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color: black;
-  text-align: center;
-}
-.buttons {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #08038c;
   margin-top: 30px;
 }
 
-#btn0,
-#btn1,
-#btn2,
-#btn3 {
-  background-color: #778897;
-  width: 250px;
-  font-size: 15px;
-  color: #fff;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 10px 40px 10px 40px;
-  padding: 10px 10px;
+.question {
+  width: 900px;
+  height: 55px;
+  margin: 0 auto;
+  font-size: 25px;
+  background: whitesmoke;
+  border-radius: 20px;
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+}
+.option {
+  margin-top: 30px;
+  width: 400px;
+  display: inline-table;
+  height: 30px;
+  padding: 10px;
+  margin-left: 50px;
+  background-color: white;
+  border-radius: 35px;
 }
 
-#progress {
-  color: gray;
-  font-size: 18px;
-  margin-left: 20px;
+.option:hover {
+  background: slategray;
+  color: #f6f6f6;
 }
-
-#btn0:hover,
-#btn1:hover,
-#btn2:hover,
-#btn3:hover {
+.next-btn {
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
   cursor: pointer;
-  background-color: #57636e;
+  float: right;
+  margin: 20px;
 }
-#btn0:focus,
-#btn1:focus,
-#btn2:focus,
-#btn3:focus {
-  outline: 0;
+.next-btn:hover {
+  background: #08038c;
+  color: #f6f6f6;
+}
+
+.result {
+  height: 100px;
+  text-align: center;
+  font-size: 75px;
+}
+.option input:checked .option {
+  background: #08038c;
+  color: #000000;
+}
+
+.next-btn {
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  margin: 20px;
+}
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }

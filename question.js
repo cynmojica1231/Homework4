@@ -1,9 +1,86 @@
-function Question(text, choices, answer) {
-  this.text = text;
-  this.choices = choices;
-  this.answer = answer;
-}
-
-Question.prototype.correctAnswer = function (choice) {
-  return choice === this.answer;
-};
+var questions = [
+  {
+    question: "1. Choose the client-side JavaScript object?",
+    option1: "Database",
+    option2: "Cursor",
+    option3: "Client",
+    option4: "FileUpLoad",
+    answer: "D",
+  },
+  {
+    question: " Scripting language are",
+    option1: "High Level Programming language",
+    option2: " Assembly Level programming language",
+    option3: "Machine level programming language",
+    option4: "None of the above",
+    answer: "A",
+  },
+  {
+    question: " JavaScript is interpreted by _________",
+    option1: "Client",
+    option2: "Server",
+    option3: "Object",
+    option4: "None of the above",
+    answer: "A",
+  },
+  {
+    question:
+      "Using _______ statement is how you test for a specific condition.",
+    option1: "Select",
+    option2: "If",
+    option3: "Switch",
+    option4: "For",
+    answer: "B",
+  },
+  {
+    question: " Choose the client-side JavaScript object:",
+    option1: "Database",
+    option2: "Cursor",
+    option3: "Client",
+    option4: "FileUpload",
+    answer: "D",
+  },
+  {
+    question:
+      "_________ is a wrapped Java array, accessed from within JavaScript code",
+    option1: "JavaClass",
+    option2: "JavaObject",
+    option3: "FileUpload",
+    option4: "JavaPackage",
+    answer: "B",
+  },
+  {
+    question: "Which of the following is not considered a JavaScript operator?",
+    option1: "new",
+    option2: "this",
+    option3: "delete",
+    option4: "typeof",
+    answer: "B",
+  },
+  {
+    question:
+      "Which of the following are capabilities of functions in JavaScript?",
+    option1: "Return a value",
+    option2: "Accept parameters and Return a value",
+    option3: "Accept parameters",
+    option4: "None of the above",
+    answer: "C",
+  },
+  {
+    question:
+      "Which of the following attribute can hold the JavaScript version?",
+    option1: "LANGUAGE",
+    option2: "SCRIPT",
+    option3: "VERSION",
+    option4: "None of the above",
+    answer: "A",
+  },
+  {
+    question: " ____________ is the tainted property of a window object",
+    option1: "Pathname",
+    option2: "Protocol",
+    option3: "Defaultstatus",
+    option4: "Host",
+    answer: "C",
+  },
+];
