@@ -10,7 +10,7 @@ body {
   top: 20%;
   left: 20%;
   right: 20%;
-  background: lightsteelblue;
+  background: whitesmoke
   padding: 20px;
 }
 .title {
@@ -40,7 +40,7 @@ body {
   height: 30px;
   padding: 10px;
   margin-left: 50px;
-  background-color: white;
+  background-color: lightsteelblue;
   border-radius: 35px;
 }
 
